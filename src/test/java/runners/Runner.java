@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
         // bu iki paket altinda kactane class olursa olsun,
         // herhangi bir class'da yazilan her adim diger class'lardaki adimlarla uyusursa yeni adim olusturmaya gerek kalmaz
 
-        tags="@register", // work in progress (@wip)
+        tags="@login", // work in progress (@wip)
         // 2-  @ testNG'degi group gibi calisir
         // eger sadece 1 Feature veya 1 Scenario calistiracaksak, gidip feature dosyasindan calistirabiliriz
         // birden fazla Feature veya Scenario calistirmak istedigimizde
@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
         // belirli bir tag belirtilirse bir kisitlama soz konusu olur
 
 
-        dryRun=true //tagname ekleyip bu sayfadan calistirinca false olmalidir..
+        dryRun=false //tagname ekleyip bu sayfadan calistirinca false olmalidir..
         // 3- dryRun-> true oldugunda test caseleri calistirmayi denemeden sadece eksik olan stepleri bana verir
         // dryRun-> false oldugunda test caseleri calistirmayi dener eksik step bulursa onu rapor eder
 
